@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <%- body %>
+    <div>
+        <!-- add menu like home, products, users,login,logout-->
+        <div>
+            <h1>My Store</h1>
+            <ul>
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/users">Users</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </div>
+        <div><%- body %></div>
+        <div>&copy; 2026 My Store. All rights reserved.</div>
+    </div>
 </body>
 </html>
